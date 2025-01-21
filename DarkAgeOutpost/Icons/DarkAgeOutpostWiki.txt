@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../style.css">
+<body style="background-color: black;">
+
+<table>
+<tr>
+<th>
+	<div class="dropdown">
+		<button type="button"><b>Major Battles</b></button>
+		<div class="content">
+			<a href="BattleofMarlinBridge.html">Battle of Marlin Bridge</a>
+			<a href=".html"></a>					
+		</div>
+	</div>
+</th>
+</tr> 
+</table>
+
+
+
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffb3b3;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
