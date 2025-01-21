@@ -1,23 +1,129 @@
 
 <!DOCTYPE html>
 <html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: .65;
+}
+
+.text {
+  color: #940000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+</style>
+</head>
 <body>
+<div class="container">
 <img src="Icons/Icon_ArmorType_SoftArmor.png" height="128">
+ <div class="overlay">
+    <div class="text">Soft Armor</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_ArmorType_ChainMail.png" height="128">
+ <div class="overlay">
+    <div class="text">Chain mail armor</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_ArmorType_Plate.png" height="128">
+ <div class="overlay">
+    <div class="text">Plate armor</div>
+  </div>
+</div>
 
-
+<div class="container">
 <img src="Icons/Icon_DamageType_Crush.png" height="128">
+ <div class="overlay">
+    <div class="text">Crush damage</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_DamageType_Pierce.png" height="128">
+ <div class="overlay">
+    <div class="text">Pierce damage</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_DamageType_Slash.png" height="128">
+ <div class="overlay">
+    <div class="text">Slash damage</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_Debuff_Amputation.png" height="128">
+ <div class="overlay">
+    <div class="text">Amputated limb</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_Debuff_BrokenBone.png" height="128">
+ <div class="overlay">
+    <div class="text">Broken bone</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_Debuff_OrganFailure.png" height="128">
+ <div class="overlay">
+    <div class="text">Organ failure</div>
+  </div>
+</div>
 
-
-
+<div class="container">
 <img src="Icons/Icon_Effect_Fire.png" height="128">
+ <div class="overlay">
+    <div class="text">Fire</div>
+  </div>
+</div>
+
+<div class="container">
 <img src="Icons/Icon_Effect_Poison.png" height="128">
+ <div class="overlay">
+    <div class="text">Poison</div>
+  </div>
+</div>
 
 
 
