@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: .65;
+}
+
+.text {
+  color: #940000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<img src="Icons/Icon_Debuff_BandagedWound.png" height="128">
+ <div class="overlay">
+    <div class="text">Bandaged Wound</div>
+  </div>
+</div>
+
+<div class="container">
+<img src="Icons/Icon_Debuff_OpenWound.png" height="128">
+ <div class="overlay">
+    <div class="text">Open Wound</div>
+  </div>
+</div>
+
+<div class="container">
+<img src="Icons/Icon_Debuff_Burn.png" height="128">
+ <div class="overlay">
+    <div class="text">Burn Injury</div>
+  </div>
+</div>
+
+<div class="container">
+<img src="Icons/Icon_Debuff_Frostbite.png" height="128">
+ <div class="overlay">
+    <div class="text">Frostbite</div>
+  </div>
+</div>
+
+<div class="container">
+<img src="Icons/Icon_Debuff_Amputation.png" height="128">
+ <div class="overlay">
+    <div class="text">Missing Limb</div>
+  </div>
+</div>
+
+<div class="container">
+<img src="Icons/Icon_Debuff_BrokenBone.png" height="128">
+ <div class="overlay">
+    <div class="text">Broken Bone</div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
